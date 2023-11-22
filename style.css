@@ -390,6 +390,12 @@ article .icon {
     text-align: center;
  }
 
+ /* PROJECT SECTION */
+
+ #project {
+    position: relative;
+}
+
 
 /* PROJECTS SECTION */
 
