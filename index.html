@@ -15,7 +15,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -32,7 +32,7 @@
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
@@ -222,52 +222,51 @@
     <section id="experience">
         <p class="section__text__p1">About My</p>
         <h1 class="title">Experience</h1>
-        
+        <div class="experience-section-container">
             <div class="about-details-container">
                 <div class="about-containers">
-                    <div class="details-container">
+                    <div class="experience-details-container">
                         <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
                         <h3>University of Central Missouri</h3>
                         <p>Mar2021-Apr2021<br> <h3>Software Developer</h3><br>
-                            Led backend development on a slow & unreliable web app that shows results of students using Java & Spring Boot; Incorporated microservices architecture that led to a reduction in 85% of students' login time which enhanced the result-viewing experience. <br>
-                            Utilized Java 8 features such as Streams, Lambdas, Functional interfaces, Multi-threading, Collections, Generics, Exception handling and Execution services to improve code efficiency and the overall performance by 15%.
+                            ● Led backend development on a slow & unreliable web app that shows results of students using Java & Spring Boot; Incorporated microservices architecture that led to a reduction in 85% of students' login time which enhanced the result-viewing experience. <br>
+                            ● Utilized Java 8 features such as Streams, Lambdas, Functional interfaces, Multi-threading, Collections, Generics, Exception handling and Execution services to improve code efficiency and the overall performance by 15%.
                         </p>
                     </div>
-                    <div class="details-container">
+                    <div class="experience-details-container">
                         <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
                         <h3>cleveland state university</h3>
                         <p>Feb2021-Jul2021<br> <h3>Software Developer</h3><br>
-Led development of a full stack scalable distributed file-sharing application for researchers to manage and share files. <br>
-Architected and developed the app with microservices, Rest APIs and used RabbitMQ as an intra-service communication. <br>
-Implemented an API gateway requests as a middleware to validate/authenticate through JWT tokens, to act as a single endpoint. <br>
-Deployed micro-services to OpenShift cluster scripting resource files through Jenkin pipelines on IU Jetstream cloud. <br>
-Achieved up to 1800 concurrent requests per instance, tested through load test in JMeter. <br>
-Architected the frontend with React.js and the backend with Java - Spring Boot, Python – Django using MongoDB as storage. 
-
+                            ●	Led development of a full stack scalable distributed file-sharing application for researchers to manage and share files. <br>
+                            ●	Architected and developed the app with microservices, Rest APIs and used RabbitMQ as an intra-service communication. <br>
+                            ●	Implemented an API gateway requests as a middleware to validate/authenticate through JWT tokens, to act as a single endpoint. <br>
+                            ●	Deployed micro-services to OpenShift cluster scripting resource files through Jenkin pipelines on IU Jetstream cloud. <br>
+                            ●	Achieved up to 1800 concurrent requests per instance, tested through load test in JMeter. <br>
+                            ●	Architected the frontend with React.js and the backend with Java - Spring Boot, Python – Django using MongoDB as storage.
                         </p>
                     </div>
-                    <div class="details-container">
+                    <div class="experience-details-container">
                         <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
                         <h3>Xcilica Solutions</h3>
                         <p>Feb2017-Dec2020<br> <h3>Software Development Engineer</h3><br>
-                            Designed and implemented a flexible access control system that enables users to share files with others via URLs and user accounts while ensuring granular control over file access permissions which utilizes UUID and ACLs for secure data transmission. <br>
-                            Implemented responsive user interfaces using HTML, CSS, React.js, GraphQL and a scalable backend using Node.js. <br>
-                            Contributed greatly to increase code quality and productivity through Test driven development (TDD), and Agile principles. <br>
-                            Utilized MongoDB to manage data, such as user information, file metadata, and access permissions, ensuring data integrity. <br>
-                            Established and maintained CI/CD pipelines using Jenkins, automating the build, test, and deployment process. <br>
-                            Monitored the application's performance and availability by using AWS CloudWatch for troubleshooting and analysis. <br>
-                            Utilized AWS Lambda, and API Gateway to deploy serverless GraphQL backends, reducing operational overhead.
+                            ● Designed and implemented a flexible access control system that enables users to share files with others via URLs and user accounts while ensuring granular control over file access permissions which utilizes UUID and ACLs for secure data transmission. <br>
+                            ● Implemented responsive user interfaces using HTML, CSS, React.js, GraphQL and a scalable backend using Node.js. <br>
+                            ● Contributed greatly to increase code quality and productivity through Test driven development (TDD), and Agile principles. <br>
+                            ● Utilized MongoDB to manage data, such as user information, file metadata, and access permissions, ensuring data integrity. <br>
+                            ● Established and maintained CI/CD pipelines using Jenkins, automating the build, test, and deployment process. <br>
+                            ● Monitored the application's performance and availability by using AWS CloudWatch for troubleshooting and analysis. <br>
+                            ● Utilized AWS Lambda, and API Gateway to deploy serverless GraphQL backends, reducing operational overhead.
                         </p>
                     </div>
                 </div>
             </div>
-        
+        </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#project'"/>
     </section>
     <section id="project">
         <p class="section__text__p1">Checkout My Recent</p>
         <h1 class="title">Project</h1>
-        <div class="section-container">
+        <div class="section-container"> 
             <div class="section__pic-container">
                 <img src="./assets/Weatherpic.jpg" alt="Profile picture" class="about-pic"/>
             </div>
@@ -293,8 +292,8 @@ Architected the frontend with React.js and the backend with Java - Spring Boot, 
                         <img src="./assets/education.png" alt="Education icon" class="icon"/>
                         <h3>Education</h3>
                         <p>Bacherlor Degree in ECE from SRM university 2013-2017<br />Masters Degree in CIS & Information technology from University of Central Missouri 2021-2023</p>
-                    </div>
-                </div> -->
+                    </div> -->
+                </div>
                 <!-- <div class="text-container">
                     <p>
                         Driven Software Engineer with over 4 years of experience leveraging Agile across every
@@ -382,7 +381,7 @@ Architected the frontend with React.js and the backend with Java - Spring Boot, 
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#project">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
