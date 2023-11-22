@@ -394,6 +394,49 @@ article .icon {
 
  #project {
     position: relative;
+    height: 100vh; /* Set a specific height for the Projects section */
+    padding: 2rem; /* Adjust padding as needed */
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the content stays within the height of the Projects section */
+}
+
+.project-details-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px; /* Set a max-width to limit the width of the content */
+    margin: auto; /* Center the content horizontally */
+}
+
+
+.project-img {
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width of the project image */
+}
+
+.project-description {
+    flex: 1;
+}
+
+.project-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+ }
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+    margin-top: 1rem; /* Add some space between the buttons and the content */
 }
 
 
@@ -410,8 +453,8 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 75%;
+    height: 30%;
 }
 
 .project-title {
