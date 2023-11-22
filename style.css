@@ -357,7 +357,6 @@ article .icon {
     position: relative;
 }
 
-
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
@@ -380,6 +379,7 @@ article .icon {
     bottom: 2.5rem;
  }
 
+
  .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -390,16 +390,6 @@ article .icon {
     text-align: center;
  }
 
- .section-container {
-    gap: 4rem;
-    height: 80%;
- }
-
- .section__pic-container {
-    height: 600px;
-    width: 600px;
-    margin: auto 0;
- }
 
 /* PROJECTS SECTION */
 
